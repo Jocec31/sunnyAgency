@@ -1,0 +1,22 @@
+{
+  "name": "sunnysideagency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss build input.css -o compiled.css",
+    "watch": "postcss build input.css -o compiled.css --watch",
+    "production": "cross-env NODE_ENV=production postcss input.css -o compiled.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.2",
+    "tailwindcss": "^2.1.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^8.3.1"
+  }
+}
